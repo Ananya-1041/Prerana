@@ -1,0 +1,73 @@
+/* Add this CSS to your StudentHome.css file or include it in your main CSS */
+
+.hover-card {
+    transition: all 0.3s ease;
+    border: 1px solid #dee2e6;
+}
+
+.hover-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1) !important;
+    border-color: #007bff;
+}
+
+.list-group-item {
+    transition: background-color 0.2s ease;
+}
+
+.list-group-item:hover {
+    background-color: #f8f9fa;
+}
+
+.btn-group .btn {
+    margin-left: 5px;
+}
+
+.btn-group .btn:first-child {
+    margin-left: 0;
+}
+
+.spinner-border {
+    width: 2rem;
+    height: 2rem;
+}
+
+.alert-heading {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+}
+
+.badge {
+    font-size: 0.75em;
+}
+
+.text-success {
+    color: #28a745 !important;
+}
+
+.text-primary {
+    color: #007bff !important;
+}
+
+.text-info {
+    color: #17a2b8 !important;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .hover-card {
+        width: 100% !important;
+        margin-bottom: 1rem;
+    }
+    
+    .btn-group {
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    .btn-group .btn {
+        margin-left: 0;
+        margin-bottom: 5px;
+        width: 100%;
+    }
+}

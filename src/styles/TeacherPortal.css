@@ -1,0 +1,5 @@
+/* src/styles/TeacherPortal.css */
+.upload-card {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  margin-bottom: 20px;
+}

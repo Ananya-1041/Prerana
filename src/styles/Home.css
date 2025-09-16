@@ -1,0 +1,101 @@
+.home-container {
+  padding: 2rem 0;
+}
+
+.welcome-section {
+  text-align: center;
+  margin-bottom: 3rem;
+  padding: 2rem;
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.welcome-section h2 {
+  color: #2c3e50;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.welcome-section p {
+  color: #666;
+  font-size: 1.1rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.carousel {
+  margin: 2rem 0;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.carousel-img {
+  height: 500px;
+  object-fit: cover;
+}
+
+.announcements-section,
+.events-section {
+  background: white;
+  padding: 2rem;
+  border-radius: 15px;
+  margin: 2rem 0;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.announcements-section h4,
+.events-section h4 {
+  color: #2c3e50;
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid #3498db;
+}
+
+.announcements-section ul,
+.events-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.announcements-section li,
+.events-section li {
+  padding: 1rem;
+  margin-bottom: 0.5rem;
+  background: #f8f9fa;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.announcements-section li:hover,
+.events-section li:hover {
+  transform: translateX(10px);
+  background: #e9ecef;
+}
+
+@media (max-width: 768px) {
+  .carousel-img {
+    height: 300px;
+  }
+  
+  .welcome-section h2 {
+    font-size: 2rem;
+  }
+  
+  .welcome-section p {
+    font-size: 1rem;
+  }
+}
+
+.container h2 {
+  margin-top: 20px;
+  color: #0056b3;
+}
+
+ul {
+  list-style-type: square;
+  padding-left: 20px;
+}
+  
